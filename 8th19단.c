@@ -4,6 +4,7 @@ int main()
 {
   int a[20][19][3] ={0};
   int i,j;
+  int sum;
   
   for(i=0;i<20;i++)
   {
@@ -36,5 +37,10 @@ int main()
   {
     for(j=0;j<19;j++)
     {
-      a[
+      sum= a[i][j][0]+a[i][j][1]+a[i][j][2];
+    }
+  }
+  printf("합계 : %d\n",sum);
+  return 0;
+}
       
