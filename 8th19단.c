@@ -25,10 +25,9 @@ int main()
     for(j=0;j<19;j++)
     {
       printf("%d *%2d =%2d\t",a[i][j][0],a[i][j][1],a[i][j][2]);
-      
-      if(j /19  == 1)
-        printf("\n");
     }
+     if(j /19  == 1)
+        printf("\n");
   }
   
   printf("합계를 출력합니다.\n");
