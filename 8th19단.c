@@ -20,7 +20,7 @@ int main()
   
   for(i=0;i<20;i++)
   {
-    printf("%d 단\n",i);
+    printf("%d 단\n",i+1);
     
     for(j=0;j<19;j++)
     {
